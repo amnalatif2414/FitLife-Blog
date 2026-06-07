@@ -22,3 +22,10 @@
 - admin/login.php → Admin login
 - admin/dashboard.php → Manage posts
 
+## Rendering Approach
+Pages are rendered server-side using PHP, which queries MySQL
+and returns complete HTML to the browser. No frontend framework is used.
+
+## Content Storage
+Post content is stored as plain HTML via a textarea form input.
+5–8 sample posts will be pre-loaded directly into the database.
